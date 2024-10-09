@@ -1,5 +1,19 @@
+* {
+    font-family: monospace;
+}
+.header {
+    display: flex;
+    background-color: papayawhip;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+}
 .flex-container {
     display: flex;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 85%;
 }
 .flex-container  div {
     background: peachpuff;
@@ -44,4 +58,23 @@
     background: cadetblue;
     text-align: center;
     align-content: center;
+}
+.container {
+    display: flex;
+    background-color: dodgerblue;
+    border: 2px solid midnightblue;
+    height: 400px;
+    width: 400px;
+    margin-left: 35%;
+    margin-right: 65%;
+    justify-content: center;
+    align-items: center;
+}
+.item {
+    background: palevioletred;
+    font-weight: bold;
+    text-align: center;
+    border: 6px solid maroon;
+    width: 80px;
+    height: 80px;
 }
