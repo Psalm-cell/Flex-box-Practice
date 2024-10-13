@@ -4,10 +4,33 @@
 .header {
     display: flex;
     background-color: papayawhip;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
 }
 ul {
     list-style-type: none;
     display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 8px;
+}
+li {
+    background-color: white;
+    font-size: 22px;
+}
+a {
+    color: blue;
+    text-decoration: none;
+}
+.logo {
+    font-size: 40px;
+    font-weight: 900;
+    color: tomato;
+    background: white;
+    padding: 4px 32px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 .flex-container {
     display: flex;
@@ -77,4 +100,5 @@ ul {
     border: 6px solid maroon;
     width: 80px;
     height: 80px;
+    padding: auto;
 }
